@@ -7,11 +7,6 @@
       "disabled": true
     },
     {
-      "entityType": "ce_communityStory",
-      "defaultFieldEligibilityGroup": "ce_communityStory.default",
-      "disabled": false
-    },
-    {
       "entityType": "event",
       "defaultFieldEligibilityGroup": "event.default",
       "disabled": false

@@ -1,11 +1,11 @@
 {
-  "$id": "121202151",
+  "$id": "1242428678",
   "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
-  "name": "FAQs on Answers",
+  "name": "FAQs on Search",
   "filter": {
     "entityField": [
       {
-        "fieldId": "c_activeOnAnswers",
+        "fieldId": "c_activeOnSearch",
         "searchBool": "TRUE"
       }
     ],

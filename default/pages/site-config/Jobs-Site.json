@@ -1,5 +1,5 @@
 {
-  "$id": "Turtlehead-Tacos-Jobs",
+  "$id": "Jobs-Site",
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
   "features": [
     {
@@ -7,5 +7,5 @@
       "featureType": "SELF_SERVE_PAGE_SET"
     }
   ],
-  "siteName": "Turtlehead Tacos Jobs"
+  "siteName": "Jobs Site"
 }

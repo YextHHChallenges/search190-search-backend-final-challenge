@@ -1,7 +1,7 @@
 {
-    "$id": "Turtlehead-Tacos-Search",
+    "$id": "Brand-Search",
     "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
-    "siteName": "Turtlehead Tacos Search",
+    "siteName": "Brand Search",
     "repoConfig": "smolder-commuting-override-f9211",
     "siteSettings": {
       "autoDeploy": true,
@@ -17,7 +17,8 @@
       {
         "name": "master",
         "envVars": [],
-        "isProductionBranch": true
+        "isProductionBranch": true,
+        "active": true
       }
     ]
   }
