@@ -1,16 +1,7 @@
 {
   "$id": "50",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
-  "primaryLocale": "en",
   "content": {
-    "address": {
-      "city": "Kingwood",
-      "countryCode": "US",
-      "line1": "1712 Kingwood Dr",
-      "postalCode": "77339",
-      "region": "TX"
-    },
-    "attire": "CASUAL",
     "c_deliveryDisclaimer": "All issues with orders placed via 3rd party apps should be resolved through that vendor.",
     "c_primaryCTA": {
       "label": "Click to Order",
@@ -30,13 +21,6 @@
         "description": "Order two tacos and get free tots on Tuesdays.",
         "photo": {
           "height": 294,
-          "thumbnails": [
-            {
-              "height": 294,
-              "url": "http://a.mktgcdn.com/p-sandbox/-OGscdtgL2FHqupGLj0pIDSoJqLHAtzy5ER0W48rTVI/196x294.jpg",
-              "width": 196
-            }
-          ],
           "url": "http://a.mktgcdn.com/p-sandbox/-OGscdtgL2FHqupGLj0pIDSoJqLHAtzy5ER0W48rTVI/196x294.jpg",
           "width": 196
         },
@@ -47,13 +31,6 @@
         "description": "Buy one Champagne Margarita and get your second on the house. Cheers!",
         "photo": {
           "height": 294,
-          "thumbnails": [
-            {
-              "height": 294,
-              "url": "http://a.mktgcdn.com/p-sandbox/2gHieyTIXQg0xUsExIhqBauGAcfJ0HFNm9ZOTkW-_nk/196x294.jpg",
-              "width": 196
-            }
-          ],
           "url": "http://a.mktgcdn.com/p-sandbox/2gHieyTIXQg0xUsExIhqBauGAcfJ0HFNm9ZOTkW-_nk/196x294.jpg",
           "width": 196
         },
@@ -61,16 +38,9 @@
         "url": "[[landingPageUrl]]"
       },
       {
-        "description": "Having a party? Let us help! Call today to inquire about our Fiesta Package.",
+        "description": "Having a party? Let Turtlehead Tacos help! Call today to inquire about our Fiesta Package.",
         "photo": {
           "height": 294,
-          "thumbnails": [
-            {
-              "height": 294,
-              "url": "http://a.mktgcdn.com/p-sandbox/Bu4qxytV6lkBVLLJd5CK39Ox9hHkR-kw9NeybAignXU/196x294.jpg",
-              "width": 196
-            }
-          ],
           "url": "http://a.mktgcdn.com/p-sandbox/Bu4qxytV6lkBVLLJd5CK39Ox9hHkR-kw9NeybAignXU/196x294.jpg",
           "width": 196
         },
@@ -80,7 +50,15 @@
     ],
     "c_restaurantType": "DINE-IN_RESTAURANT",
     "c_territory": "Texas",
-    "description": "Hungry for Tacos? Fan of \"Chips \u0026 Guac\"? We\u0027re the destination for you. With locations globally, we pride ourselves in providing our customers with the most delicious, fresh tacos daily. Visit us in [[address.city]], [[address.region]] today!",
+    "address": {
+      "city": "Kingwood",
+      "countryCode": "US",
+      "line1": "1712 Kingwood Dr",
+      "postalCode": "77339",
+      "region": "TX"
+    },
+    "attire": "CASUAL",
+    "description": "Hungry for Tacos? Fan of \"Chips \u0026 Guac\"? Turtlehead Tacos is the destination for you. With locations globally, we pride ourselves in providing our customers with the most delicious, fresh tacos daily. Visit us in [[address.city]], [[address.region]] today!",
     "featuredMessage": {
       "description": "Order online today",
       "url": "http://www.turtleheadtacos.com"
@@ -150,11 +128,6 @@
         "height": 150,
         "thumbnails": [
           {
-            "height": 150,
-            "url": "http://a.mktgcdn.com/p-sandbox/FVCnI4EXZe3nj2hzKvJLgzIbTZ4YWRmYZCMvdjlXGR0/150x150.png",
-            "width": 150
-          },
-          {
             "height": 94,
             "url": "http://a.mktgcdn.com/p-sandbox/FVCnI4EXZe3nj2hzKvJLgzIbTZ4YWRmYZCMvdjlXGR0/94x94.png",
             "width": 94
@@ -174,14 +147,9 @@
           "height": 2000,
           "thumbnails": [
             {
-              "height": 2000,
-              "url": "http://a.mktgcdn.com/p-sandbox/j_ntIF1hW4mnfFA7-D7pxcvotnKNSk3OeFOwfMynaOY/1509x2000.jpg",
-              "width": 1509
-            },
-            {
               "height": 1900,
-              "url": "http://a.mktgcdn.com/p-sandbox/j_ntIF1hW4mnfFA7-D7pxcvotnKNSk3OeFOwfMynaOY/1434x1900.jpg",
-              "width": 1434
+              "url": "http://a.mktgcdn.com/p-sandbox/j_ntIF1hW4mnfFA7-D7pxcvotnKNSk3OeFOwfMynaOY/1433x1900.jpg",
+              "width": 1433
             },
             {
               "height": 820,
@@ -190,12 +158,12 @@
             },
             {
               "height": 450,
-              "url": "http://a.mktgcdn.com/p-sandbox/j_ntIF1hW4mnfFA7-D7pxcvotnKNSk3OeFOwfMynaOY/340x450.jpg",
-              "width": 340
+              "url": "http://a.mktgcdn.com/p-sandbox/j_ntIF1hW4mnfFA7-D7pxcvotnKNSk3OeFOwfMynaOY/339x450.jpg",
+              "width": 339
             },
             {
-              "height": 260,
-              "url": "http://a.mktgcdn.com/p-sandbox/j_ntIF1hW4mnfFA7-D7pxcvotnKNSk3OeFOwfMynaOY/196x260.jpg",
+              "height": 259,
+              "url": "http://a.mktgcdn.com/p-sandbox/j_ntIF1hW4mnfFA7-D7pxcvotnKNSk3OeFOwfMynaOY/196x259.jpg",
               "width": 196
             }
           ],

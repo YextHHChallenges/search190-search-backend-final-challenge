@@ -1,8 +1,11 @@
 {
   "$id": "Event-3",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
-  "primaryLocale": "en",
   "content": {
+    "c_featuredGuests": [
+      "Stephen King",
+      "David Beckham"
+    ],
     "address": {
       "city": "Katy",
       "countryCode": "US",
@@ -10,10 +13,6 @@
       "postalCode": "77494",
       "region": "TX"
     },
-    "c_featuredGuests": [
-      "Stephen King",
-      "David Beckham"
-    ],
     "description": "Held annually at our scenic Cinco Ranch Boulevard location, \"Taco Slam\" is a lens into the finer side of tacos. We love supporting the arts and this fun event allows for creators to express themselves in an open, accepting environment. All proceeds are donated to the American Non-Profit Association!",
     "isFreeEvent": true,
     "keywords": [
@@ -21,11 +20,11 @@
     ],
     "landingPageUrl": "http://events.turtleheadtacos.com/event-3",
     "linkedLocation": "26",
-    "name": "\"Taco Slam\": A Slam Poetry Event",
+    "name": "\"Taco Slam\": A Slam Poetry Event from Turtlehead Tacos",
     "organizerEmail": "sally@turtleheadtacos.com",
     "time": {
-      "end": "2023-05-23T17:00",
-      "start": "2023-05-23T15:00"
+      "end": "2022-05-23T17:00",
+      "start": "2022-05-23T15:00"
     },
     "timezone": "America/Chicago",
     "venueName": "Turtlehead Tacos",

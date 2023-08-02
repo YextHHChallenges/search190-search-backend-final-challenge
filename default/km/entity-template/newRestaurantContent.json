@@ -28,7 +28,7 @@
         "url": "[[landingPageUrl]]"
       },
       {
-        "description": "Having a party? Let us help! Call today to inquire about our Fiesta Package.",
+        "description": "Having a party? Let Turtlehead Tacos help! Call today to inquire about our Fiesta Package.",
         "photo": {
           "height": 294,
           "url": "http://a.mktgcdn.com/p-sandbox/Bu4qxytV6lkBVLLJd5CK39Ox9hHkR-kw9NeybAignXU/196x294.jpg",
@@ -39,7 +39,7 @@
       }
     ],
     "attire": "CASUAL",
-    "description": "Hungry for Tacos? Fan of \"Chips \u0026 Guac\"? We're the destination for you. With locations globally, we pride ourselves in providing our customers with the most delicious, fresh tacos daily. Visit us in [[address.city]], [[address.region]] today!",
+    "description": "Hungry for Tacos? Fan of \"Chips \u0026 Guac\"? Turtlehead Tacos is the destination for you. With locations globally, we pride ourselves in providing our customers with the most delicious, fresh tacos daily. Visit us in [[address.city]], [[address.region]] today!",
     "featuredMessage": {
       "description": "Order online today",
       "url": "http://www.turtleheadtacos.com"

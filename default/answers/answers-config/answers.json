@@ -1,0 +1,112 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers",
+  "name": "answers",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "events": {
+      "entityTypes": [
+        "event"
+      ],
+      "name": "Events",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "savedSearchId": "121202151",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "question": {
+          "semanticTextSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "restaurants": {
+      "entityTypes": [
+        "restaurant"
+      ],
+      "name": "Restaurants",
+      "savedSearchId": "112002255",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "c_promotingEvents.name": {
+          "nlpFilter": true
+        },
+        "mainPhone": {
+          "directAnswer": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "Restaurants near me",
+      "Do you offer delivery?",
+      "Events",
+      "Do you sell gift cards?"
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "events": [
+        "[[name]]"
+      ],
+      "restaurants": [
+        "Restaurants near me",
+        "Restaurants in [[address.city]]"
+      ]
+    }
+  },
+  "synonyms": {
+    "oneWay": [
+      {
+        "phrase": "nest",
+        "synonyms": [
+          "restaurant"
+        ]
+      }
+    ],
+    "synonymSet": [
+      [
+        "location",
+        "restaurant",
+        "food joint",
+        "taco shop",
+        "eatery"
+      ]
+    ]
+  },
+  "localizations": {}
+}
