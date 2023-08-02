@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
-  "$id": "answers",
-  "name": "answers",
+  "$id": "brand-search",
+  "name": "Brand Search",
   "supportedLocales": [],
   "countryRestrictions": [],
   "verticals": {
@@ -10,23 +10,44 @@
         "event"
       ],
       "name": "Events",
+      "savedSearchId": "1242434077",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "phraseMatch": true
+        },
         "name": {
           "textSearch": true
+        },
+        "time.start": {
+          "sortable": true
         }
       },
-      "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER"
+      "sortBys": [
+        {
+          "buckets": [],
+          "type": "RELEVANCE"
+        },
+        {
+          "buckets": [],
+          "direction": "ASC",
+          "field": "time.start",
+          "type": "FIELD"
+        }
+      ],
+      "source": "YEXT"
     },
     "faqs": {
       "entityTypes": [
         "faq"
       ],
       "name": "FAQs",
-      "savedSearchId": "121202151",
+      "savedSearchId": "1242428678",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
@@ -39,9 +60,17 @@
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER"
+      "source": "YEXT"
     },
     "restaurants": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone"
+          ],
+          "predictionMode": "CLASSIFIER"
+        }
+      },
       "entityTypes": [
         "restaurant"
       ],
@@ -51,25 +80,69 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
+        "builtin.hours": {
+          "nlpFilter": true
+        },
         "builtin.location": {
           "nlpFilter": true
         },
         "c_promotingEvents.name": {
           "nlpFilter": true
         },
-        "mainPhone": {
-          "directAnswer": true
+        "c_restaurantFeatures": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "c_restaurantType": {
+          "facet": true
+        },
+        "keywords": {
+          "phraseMatch": true
         },
         "name": {
           "textSearch": true
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER"
+      "source": "YEXT"
     }
   },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "restaurant",
+        "location",
+        "locations"
+      ]
+    ],
+    "normalization": []
+  },
+  "localizations": {},
+  "rules": [
+    {
+      "criteria": {
+        "searchTermContains": [
+          "turtlehead"
+        ]
+      },
+      "actions": [
+        {
+          "actionType": "BOOST_VERTICALS",
+          "verticals": [
+            "faqs"
+          ]
+        }
+      ],
+      "name": "Boost FAQs for Turtlehead Search Term"
+    }
+  ],
+  "additionalSearchablePlaces": [],
   "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
     "popularQueriesBlacklistedTerms": [],
+    "popularQueriesBlacklistedRegex": [],
     "universalPrompts": [
       "Restaurants near me",
       "Do you offer delivery?",
@@ -77,36 +150,15 @@
       "Do you sell gift cards?"
     ],
     "verticalPrompts": {
-      "faqs": [
-        "[[name]]"
-      ],
       "events": [
         "[[name]]"
       ],
+      "faqs": [
+        "[[name]]"
+      ],
       "restaurants": [
-        "Restaurants near me",
-        "Restaurants in [[address.city]]"
+        "[[name]]"
       ]
     }
-  },
-  "synonyms": {
-    "oneWay": [
-      {
-        "phrase": "nest",
-        "synonyms": [
-          "restaurant"
-        ]
-      }
-    ],
-    "synonymSet": [
-      [
-        "location",
-        "restaurant",
-        "food joint",
-        "taco shop",
-        "eatery"
-      ]
-    ]
-  },
-  "localizations": {}
+  }
 }
