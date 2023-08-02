@@ -29,6 +29,11 @@
       "disabled": false
     },
     {
+      "entityType": "ce_menuItem",
+      "defaultFieldEligibilityGroup": "ce_menuItem.default",
+      "disabled": false
+    },
+    {
       "entityType": "hotel",
       "disabled": true
     },
