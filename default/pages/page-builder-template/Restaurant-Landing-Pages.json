@@ -1,8 +1,8 @@
 {
-  "$id": "Turtlehead-Tacos-Restaurant-Pages",
+  "$id": "Restaurant-Landing-Pages",
   "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
   "PageSetType": "TEMPLATE",
-  "Name": "Turtlehead Tacos Restaurant Pages",
+  "Name": "Restaurant Landing Pages",
   "EntityTypeName": "restaurant",
   "PageSetConfig": {
     "Analytics": {

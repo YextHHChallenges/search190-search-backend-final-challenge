@@ -3,7 +3,7 @@
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
   "features": [
     {
-      "feature": "Restaurants-Landing-Pages",
+      "feature": "Restaurant-Landing-Pages",
       "featureType": "SELF_SERVE_PAGE_SET"
     }
   ],
