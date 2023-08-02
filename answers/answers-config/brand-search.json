@@ -40,7 +40,7 @@
           "type": "FIELD"
         }
       ],
-      "source": "KNOWLEDGE_MANAGER"
+      "source": "YEXT"
     },
     "faqs": {
       "entityTypes": [
@@ -60,9 +60,17 @@
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER"
+      "source": "YEXT"
     },
     "restaurants": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone"
+          ],
+          "predictionMode": "CLASSIFIER"
+        }
+      },
       "entityTypes": [
         "restaurant"
       ],
@@ -82,7 +90,8 @@
           "nlpFilter": true
         },
         "c_restaurantFeatures": {
-          "facet": true
+          "facet": true,
+          "nlpFilter": true
         },
         "c_restaurantType": {
           "facet": true
@@ -95,7 +104,7 @@
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER"
+      "source": "YEXT"
     }
   },
   "synonyms": {
@@ -103,7 +112,8 @@
     "synonymSet": [
       [
         "restaurant",
-        "location"
+        "location",
+        "locations"
       ]
     ],
     "normalization": []
